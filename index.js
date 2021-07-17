@@ -21,9 +21,9 @@ const init = async ()=> {
 		port: port,
 		// port DEVELOPMENT
 		// port: 5000,
-		// host: '0.0.0.0',
+		host: '0.0.0.0',
 		// host DEVELOPMENT
-		host: "http://localhost",
+		// host: "http://localhost",
 		"routes": {
 			"cors": {
 				origin: ["*"],
