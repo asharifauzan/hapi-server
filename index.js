@@ -13,10 +13,12 @@ const addProduct = require('./routing/add')
 const editProduct = require('./routing/update')
 const deleteProduct = require('./routing/delete')
 
+const port = process.env.PORT || 8080;
+
 const init = async ()=> {
 
 	const server = Hapi.server({
-		port: 5000,
+		port: port,
 		host: 'localhost',
 		"routes": {
 			"cors": {
